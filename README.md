@@ -20,13 +20,19 @@ needed.
 ## What's inside
 
 - **Sound sources:** two oscillators (saw, square with pulse width, triangle)
-  with sync and ring mod, plus noise.
-- **Filter:** a resonant 12 or 24 dB filter with its own envelope.
+  with sync, ring mod, cross mod (FM) and a pitch envelope, plus noise.
+- **Filter:** a resonant 12 or 24 dB filter with its own envelope and velocity
+  sensitivity. Both saturate when pushed, like analog circuits.
+- **Analog character:** each voice is slightly out of tune with the others and
+  each oscillator drifts gently, like a real analog synth.
 - **Amp:** an amp envelope.
-- **Modulation:** an LFO for vibrato, wah or PWM.
+- **Modulation:** an LFO for vibrato, wah or PWM that can lock to the tempo.
 - **Voices:** 4-voice poly, unison, mono with glide, and an arpeggiator.
-- **Effects:** a stereo, tape-like delay.
+- **Effects:** a stereo delay modelled on analog bucket-brigade units, and a
+  stereo reverb.
 - **Step sequencer:** 16 steps with chords, ties and slides.
+- **Demo:** press DEMO and the synth plays itself, turning one control at a
+  time and explaining what you're hearing.
 - **Presets:** factory presets, and you can save your own.
 
 ## Playing
